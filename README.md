@@ -51,6 +51,7 @@ i
 ```
 Save and quit your crontab script schedule
 ```
+esc
 :wq
 ```
 
