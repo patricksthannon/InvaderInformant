@@ -20,7 +20,7 @@ brew install nmap
 
 2. Edit script to add your ntfy server ip and topic name
 
-`Line 8: topic=your_ntfy_topic_here` 
+`Line 8: topic=your_ntfy_topic_here` <br>
 `Line 9: notifyserver=your_ntfy_server_ip_here`
 
 ```
