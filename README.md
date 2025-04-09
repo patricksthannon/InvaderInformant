@@ -1,4 +1,4 @@
-# Invador Informant
+# Invader Informant
 
 **CLI tool for Mac OS to automate network scans and notify, using ntfy.sh, of any new or dropped connections on your network.** 
 
