@@ -1,6 +1,8 @@
 # Invador Informant
 
-CLI tool for Mac OS to automate network scans and notify, using ntfy.sh, of any new or dropped connections on your network.  
+**CLI tool for Mac OS to automate network scans and notify, using ntfy.sh, of any new or dropped connections on your network.** 
+
+The script will scan for your particular network IP using ipconfig and then scan the subnet for devices/hosts using nmap. 
 
 ## Dependencies:
 
@@ -20,8 +22,8 @@ brew install nmap
 
 2. Edit script to add your ntfy server ip and topic name
 
-`Line 8: topic=your_ntfy_topic_here` <br>
-`Line 9: notifyserver=your_ntfy_server_ip_here`
+`topic=your_ntfy_topic_here` <br>
+`notifyserver=your_ntfy_server_ip_here`
 
 ```
 Edit using Vim
