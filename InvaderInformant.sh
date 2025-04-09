@@ -5,10 +5,10 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 #InvaderInformant.sh
 
 #For script to work you must create a topic on ntfy.sh
-#Following add your topic and notify server ip to the variables below (without quotes)
+#Following add your topic and ntfy server ip to the variables below (without quotes)
 
 topic=your_ntfy_topic_here 
-notifyserver=your_ntfy_server_ip_here #with forward slash at end ie -> ntfy.sh/
+notifyserver=your_ntfy_server_ip_here/ #with forward slash at end | example -> https://192.168.10.1:80/
 
 
 function main() {
@@ -41,7 +41,6 @@ function main() {
             iostring="${computer:0:1}"
             line=$(echo "$computer" | sed 's/^[<>] //')
 
-            # Extract hostname (optional) and IP
             hostname=$(echo "$line" | grep -oE "Nmap scan report for [^ ]+ \(" | sed 's/Nmap scan report for //' | sed 's/ (//')
             device_ip=$(echo "$line" | grep -oE "$subnet_prefix\.[0-9]+")
 
