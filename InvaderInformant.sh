@@ -1,5 +1,7 @@
 #!/bin/zsh
 
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+
 #InvaderInformant.sh
 
 #For script to work you must create a topic on ntfy.sh
