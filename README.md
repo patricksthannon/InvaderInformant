@@ -43,15 +43,15 @@ crontab -e
 ```
 add a cronjob 
 (every 5 minutes as the example or use a [Crontab Generator](https://crontab.guru/))
-```
-i
-```
+<br><br>
+Press <kbd>i</kbd>
+
 ```
 */5 * * * * /usr/local/bin/InvaderInformant.sh
 ```
-Save and quit your crontab script schedule
+Save and quit your crontab script schedule <br><br>
+Press <kbd>escape</kbd> 
 ```
-esc
 :wq
 ```
 
