@@ -2,7 +2,7 @@
 
 **CLI tool for Mac OS to automate network scans and notify, using ntfy.sh, of any new or dropped connections on your network.** 
 
-The script will scan for your particular network IP using ipconfig and then scan the subnet for devices/hosts using nmap. 
+The script will scan for your particular network IP using ipconfig and then scan the subnet for devices/hosts using nmap. Following, it will look for differences in connected hosts logs and send the information to your ntfy server. 
 
 ## Dependencies:
 
